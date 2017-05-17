@@ -39,5 +39,17 @@
         <input type="checkbox" name="<?= $value ?>" value = "<?= $key ?>"> <?= $value ?><br>
       <?php endforeach; ?>
       
+      <!-- Conditional contenet -->
+      <h3>Message</h3>
+      <?php if ($preferredCustomer): ?>
+        <strong>Thank you for being a preferred customer!</strong><br>
+      <?php endif; ?>
+      
+      <?php if ($lastLogin > strtotime('-1 month')): ?>
+        Welcome Back!
+        <?php else: ?>It's been a while!
+      <?php endif; ?>
+      
+      
     </body>
 </html>
