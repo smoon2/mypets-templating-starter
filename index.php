@@ -10,9 +10,25 @@
     //Default route
     $f3->route('GET /', function($f3) {
         
-        echo "Hello!";
+        $f3->set('username', 'jshmo');
+        $f3->set('password', sha1('Password01'));
+        $f3->set('title', 'Working with Templates');
+        $f3->set('temp', 68);
+        $f3->set('color', 'purple');
+        $f3->set('radius', 10);
+        $f3->set('bookmarks', array('http://www.google.com', 'http://www.leagueoflegends.com',
+                                    'http://www.facebook.com'));
+        $f3->set('addresses', array('primary' => '1003 S 308th, FederalWay, WA 98003',
+                                    'secondary' => '9532 100th Court, Kent, WA 98000'));
+        $f3->set('desserts', array('chocolate' => 'Chocolate Mousse', 'vanilla'=>'Vanilla Custard',
+                                   'strawberry' => 'Strawberry Shortcake'));
+        
+        
+        echo Template::instance()->render('pages/info.html');
         
     });
+    
+    
 
     //Run fat free
     $f3->run();

@@ -96,3 +96,15 @@
 [06-May-2017 16:21:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tina/public_html/328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php on line 32
 [06-May-2017 16:21:29 America/Chicago] Fatal error: syntax error, unexpected '}'
 [06-May-2017 16:21:29 America/Chicago] [328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php:32] 
+[16-May-2017 21:01:57 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/smoon/public_html/328/mypets-templating-starter/index.php on line 14
+[16-May-2017 21:02:11 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/smoon/public_html/328/mypets-templating-starter/index.php on line 14
+[16-May-2017 21:02:12 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/smoon/public_html/328/mypets-templating-starter/index.php on line 14
+[16-May-2017 21:02:47 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/smoon/public_html/328/mypets-templating-starter/index.php on line 14
+[16-May-2017 21:02:49 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/smoon/public_html/328/mypets-templating-starter/index.php on line 14
+[16-May-2017 21:03:23 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/smoon/public_html/328/mypets-templating-starter/index.php on line 14
+[16-May-2017 21:04:14 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/smoon/public_html/328/mypets-templating-starter/index.php on line 14
+[16-May-2017 21:04:16 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/smoon/public_html/328/mypets-templating-starter/index.php on line 14
+[16-May-2017 21:11:00 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/smoon/public_html/328/mypets-templating-starter/tmp/120yhgzi7qtmb.2hbmt1l6jeqsc.php on line 13
+[16-May-2017 21:11:00 America/Chicago] Fatal error: syntax error, unexpected '?>'
+[16-May-2017 21:11:00 America/Chicago] [328/mypets-templating-starter/tmp/120yhgzi7qtmb.2hbmt1l6jeqsc.php:13] 
+[16-May-2017 21:33:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/smoon/public_html/328/mypets-templating-starter/index.php on line 25
